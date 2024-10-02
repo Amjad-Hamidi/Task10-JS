@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+body,#authorName{
+    background-color: lightcoral;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#authorName{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.recipes{
+    background-color: antiquewhite;
+}
+
+.recipe {
+    background: #f8f8f8; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    padding: 20px; 
+    text-align: center; 
+    width: 300px;
+}
+
+.recipe h2 {
+    font-size: 1.2rem;
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+.recipe img {
+    width: 100%; /* Make the image take the full width of the card */
+    height: 200px; /* Keep the image's aspect ratio */
+    border-radius: 5px; /* Slightly rounded corners for the image */
+}
+
+.recipe:hover {
+    transform: scale(1.03); /* Slightly enlarges the card */
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15); /* Enhances shadow for depth */
+}
